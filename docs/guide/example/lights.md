@@ -21,12 +21,12 @@ const lights = ref();
 lights.value = [
   {
     type: "AmbientLight",
-    color: "red",
+    color: "green",
   },
   {
     type: "DirectionalLight",
     position: { x: 100, y: 10, z: 100 },
-    color: "green",
+    color: "blue",
     intensity: 0.8,
   },
   {
